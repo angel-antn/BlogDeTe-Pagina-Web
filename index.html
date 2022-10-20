@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Pagina web para amantes del Té">
+        <link rel="icon" href="img/icon.ico">
+        <title>BlogDeTe</title>
+
+        <link rel="preload" href="styles/normalize.css" as="style" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+            crossorigin="crossorigin"
+            as="font"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preload" href="styles/style.css" as="style" />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="contenedor">
+                    <div class="barra">
+                        <a href="index.html" class="logo">
+                            <h1 class="logo__nombre no_margin">
+                                Blog<span class="logo__bold">DeTé</span>
+                            </h1>
+                        </a>
+                        <nav class="navegacion">
+                            <a href="nosotros.html" class="navegacion__enlace"
+                                >Nosotros</a
+                            >
+                            <a href="cursos.html" class="navegacion__enlace"
+                                >Cursos</a
+                            >
+                            <a href="contacto.html" class="navegacion__enlace"
+                                >Contacto</a
+                            >
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__text centrar">
+                <h2 class="no_margin">Blog de té con consejos y cursos</h2>
+                <p class="no_margin">
+                    ¡Aprende de los expertos con las mejores recetas y consejos!
+                </p>
+            </div>
+        </header>
+
+        <div class="contenido_principal contenedor">
+            <main>
+                <h3>Nuestro Blog</h3>
+
+                <article class="articulo">
+                    <h4 class="no_margin">Tipos de Infusiones</h4>
+                    <div class="articulo__img">
+                        <picture>
+                            <source
+                                loading="lazy"
+                                srcset="img/blog1.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                src="img/blog1.jpg"
+                                alt="img blog"
+                                loading="lazy"
+                            />
+                        </picture>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Tempora pariatur doloribus a quos nulla accusamus
+                        laboriosam. Vero eum maiores sequi corrupti placeat
+                        consectetur accusantium repellendus quisquam, quasi
+                        natus fugit iure.
+                    </p>
+                    <a href="articulo.html" class="boton boton--oscuro"
+                        >Leer articulo</a
+                    >
+                </article>
+
+                <article class="articulo">
+                    <h4 class="no_margin">3 deliciosas Recetas de Té</h4>
+                    <div class="articulo__img">
+                        <picture>
+                            <source
+                                loading="lazy"
+                                srcset="img/blog2.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                src="img/blog2.jpg"
+                                alt="img blog"
+                                loading="lazy"
+                            />
+                        </picture>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Tempora pariatur doloribus a quos nulla accusamus
+                        laboriosam. Vero eum maiores sequi corrupti placeat
+                        consectetur accusantium repellendus quisquam, quasi
+                        natus fugit iure.
+                    </p>
+                    <a href="articulo.html" class="boton boton--oscuro"
+                        >Leer articulo</a
+                    >
+                </article>
+
+                <article class="articulo">
+                    <h4 class="no_margin">Beneficios del Té</h4>
+                    <div class="articulo__img">
+                        <picture>
+                            <source
+                                loading="lazy"
+                                srcset="img/blog3.webp"
+                                type="image/webp"
+                            />
+                            <img
+                                src="img/blog3.jpg"
+                                alt="img blog"
+                                loading="lazy"
+                            />
+                        </picture>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Tempora pariatur doloribus a quos nulla accusamus
+                        laboriosam. Vero eum maiores sequi corrupti placeat
+                        consectetur accusantium repellendus quisquam, quasi
+                        natus fugit iure.
+                    </p>
+                    <a href="articulo.html" class="boton boton--oscuro"
+                        >Leer articulo</a
+                    >
+                </article>
+            </main>
+            <aside>
+                <h3>Nuestros Cursos y Talleres</h3>
+                <ul class="cursos no_padding">
+                    <li class="curso">
+                        <h4 class="no margin">Tecnicas de Infusión</h4>
+                        <p class="curso__label">
+                            Precio: <span class="curso__info">Gratis</span>
+                        </p>
+                        <p class="curso__label">
+                            Cupos: <span class="curso__info">20</span>
+                        </p>
+                        <a href="cursos.html" class="boton">Ver cursos</a>
+                    </li>
+
+                    <li class="curso">
+                        <h4 class="no margin">
+                            4 recetas de té para principiantes
+                        </h4>
+                        <p class="curso__label">
+                            Precio: <span class="curso__info">Gratis</span>
+                        </p>
+                        <p class="curso__label">
+                            Cupos: <span class="curso__info">20</span>
+                        </p>
+                        <a href="cursos.html" class="boton">Ver cursos</a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer>
+            <div class="contenedor">
+                <div class="footer">
+                    <a href="index.html" class="logo">
+                        <h2 class="logo__nombre no_margin">
+                            Blog<span class="logo__bold">DeTé</span>
+                        </h2>
+                    </a>
+                    <nav class="footer__nav">
+                        <a href="nosotros.html" class="footer__nav__enlaces"
+                            >Nosotros</a
+                        >
+                        <a href="cursos.html" class="footer__nav__enlaces"
+                            >Cursos</a
+                        >
+                        <a href="contacto.html" class="footer__nav__enlaces"
+                            >Contacto</a
+                        >
+                    </nav>
+                </div>
+            </div>
+        </footer>
+        <script src="js/modernizr.js"></script>
+    </body>
+</html>

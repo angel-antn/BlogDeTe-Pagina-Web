@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Pagina web para amantes del Té">
+        <link rel="icon" href="img/icon.ico">
+        <title>BlogDeTe</title>
+
+        <link rel="preload" href="styles/normalize.css" as="style" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+            crossorigin="crossorigin"
+            as="font"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preload" href="styles/style.css" as="style" />
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="contenedor">
+                    <div class="barra">
+                        <a href="index.html" class="logo">
+                            <h1 class="logo__nombre no_margin">
+                                Blog<span class="logo__bold">DeTé</span>
+                            </h1>
+                        </a>
+                        <nav class="navegacion">
+                            <a href="nosotros.html" class="navegacion__enlace"
+                                >Nosotros</a
+                            >
+                            <a href="cursos.html" class="navegacion__enlace"
+                                >Cursos</a
+                            >
+                            <a href="contacto.html" class="navegacion__enlace"
+                                >Contacto</a
+                            >
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__text centrar">
+                <h2 class="no_margin">Blog de té con consejos y cursos</h2>
+                <p class="no_margin">
+                    ¡Aprende de los expertos con las mejores recetas y consejos!
+                </p>
+            </div>
+        </header>
+
+        <main class="contenedor">
+            <h3 class="centrar">Contactanos</h3>
+            <div class="contacto-bg"></div>
+            <form class="formulario">
+                <div class="campo">
+                    <label for="campo_nombre" class="campo__label"
+                        >Nombre</label
+                    >
+                    <input
+                        type="text"
+                        placeholder="Nombre"
+                        id="campo_nombre"
+                        class="campo__input"
+                    />
+                </div>
+                <div class="campo">
+                    <label for="campo_correo" class="campo__label"
+                        >E-mail</label
+                    >
+                    <input
+                        type="email"
+                        placeholder="E-mail"
+                        id="campo_correo"
+                        class="campo__input"
+                    />
+                </div>
+                <div class="campo">
+                    <label for="campo_mensaje" class="campo__label"
+                        >Mensaje</label
+                    >
+                    <textarea
+                        placeholder="Mensaje"
+                        id="campo_mensaje"
+                        class="campo__input campo__input--textarea"
+                    ></textarea>
+                </div>
+                <div class="campo">
+                    <input
+                        type="submit"
+                        value="Enviar"
+                        class="boton boton--oscuro boton--form"
+                    />
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <div class="contenedor">
+                <div class="footer">
+                    <a href="index.html" class="logo">
+                        <h2 class="logo__nombre no_margin">
+                            Blog<span class="logo__bold">DeTé</span>
+                        </h2>
+                    </a>
+                    <nav class="footer__nav">
+                        <a href="nosotros.html" class="footer__nav__enlaces"
+                            >Nosotros</a
+                        >
+                        <a href="cursos.html" class="footer__nav__enlaces"
+                            >Cursos</a
+                        >
+                        <a href="contacto.html" class="footer__nav__enlaces"
+                            >Contacto</a
+                        >
+                    </nav>
+                </div>
+            </div>
+        </footer>
+        <script src="js/modernizr.js"></script>
+    </body>
+</html>
