@@ -10,6 +10,7 @@
     --crema: #fef5ef;
     --crema_transparente: #fef5ef27;
     --crema_oscuro: #dcd4d0;
+    --rojo: #cf5656;
 }
 
 html {
@@ -304,6 +305,23 @@ footer {
     font-weight: 700;
 }
 
+.error{
+    background-color: var(--rojo);
+    color: var(--crema);
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.mensaje_enviado{
+    background-color: var(--primario);
+    color: var(--crema);
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+}
 @media (min-width: 700px) {
     body {
         line-height: 2;
